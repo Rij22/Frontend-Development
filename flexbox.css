@@ -13,23 +13,14 @@
     color: white;
     justify-content: left;
     align-items: center;
-    /*flex-direction: row;*/
     height: 100vh;
     padding: 50px;
     width: 50%;
     margin: 0 auto;
 }
-/*.container-1 {
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    background-color: white;
-
-}*/
 .container-1 div {
     border: 0px solid #ccc;
     align-items:flex-start;
-    letter-spacing: 2px;
     text-align: left;
     border-radius: 2px;
     font-size: 15px;
