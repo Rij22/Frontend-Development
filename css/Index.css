@@ -81,19 +81,40 @@ main h1{
         0 0 160px #87ceeb;
     }
 }
+.left-main1 h2{
+    width: 500px; 
+    height: 300px; 
+    font-size: 21px;
+    font-family: sans-serif;
+    color: turquoise;
+}
 
-main .about-main{
+.about-main{
     display: flex;
     justify-content: space-between;
     line-height: 1.6;
 }
-main .left-main{
+.left-main{
     width: 45%;
 }
-main .right-main{
+.right-main{
     width: 35%;
 }
-main .right-main img{
+.right-main canvas{
+    position: absolute;
+    right: 5%;
+    height: 80%;
+    width: 40%;
+    top: 20%;
+    /*bottom: 5%;*/
+    border: 5px;
+    background: black;
+
+}
+
+
+
+.right-main img{
     position: absolute;
     right: 5%;
     height: 70%;
@@ -103,31 +124,26 @@ main .right-main img{
     background-color: gray;
 }
 
-main .left-main p{
+.left-main p{
     margin-bottom: 5%;
     font-size: 1rem;
 }
 
-main .left-main a{
+.left-main a{
     color: blue;
     background-color: turquoise;
     padding: 10px 40px;
     border-radius: 10px;
 }
 
-main .left-main a:hover{
+.left-main a:hover{
     background-color: lightcoral;
     box-shadow: 0 0 10px white;
-}
-main h2{
-    font-size: 25px;
-    color: lightcoral;
-    background-color: turquoise;
 }
 
 footer{
     display:flex;
-    text-align: center;
+    /*justify-content: center;*/
     padding: 5px;
     font-size: 10px;
     background-color: turquoise;
@@ -135,4 +151,18 @@ footer{
     color: black;
     bottom: 0;
     width: 100%;
+    /*max-width: 960px;
+    margin-inline: auto;
+    padding-inline: 10px;*/
+}
+.fa{
+    position: relative;
+    font-size: 30px;
+    color: black;
+    
+    
+    
+    
+    
+    
 }
