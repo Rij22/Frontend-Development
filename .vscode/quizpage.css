@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(/img/golden-wings-on-black-background-vector-35835077.jpeg)
+}
+
+.topnav{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: flex-start;
+    top: 0;
+    background-color: turquoise;
+    position: sticky;
+}
+.login-container{
+    align-items: flex-end;
+}
